@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Logo() {
+const Logo = () => {
   return (
     <header>
       <h1>Welcome to Pokedex</h1>
@@ -10,7 +10,7 @@ function Logo() {
     )
 }
 
-function BestPokemon(){
+const BestPokemon = () => {
   return <p>My favourite Pokemon is Squirtle</p>
 }
 
