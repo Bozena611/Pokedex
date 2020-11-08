@@ -7,7 +7,9 @@ const CaughtPokemon = (props) => {
 
   const catchPokemon = () => {
   	//use concat instead of push
-  	setCaught(caught.concat("Pokemon"));
+    const list = ["Pikachu", "Eevee", "Raichu", "Glaceon"]
+    const random = list[Math.floor(Math.random() * list.length)];
+    setCaught(caught.concat(random));
   }
 
   return (
