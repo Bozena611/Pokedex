@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./Logo";
 import BestPokemon from "./BestPokemon";
 import CaughtPokemon from "./CaughtPokemon";
+import PokemonMoves from "./PokemonMoves";
 
 function App() {
   let abilities = ['Anticipation', 'Adaptability', 'Run-Away'];
@@ -15,6 +16,7 @@ function App() {
       <Logo appName="Pokedex" handleClick={logWhenClicked}/>
       <BestPokemon abilities={abilities}/>
       <CaughtPokemon date={date}/>
+      <PokemonMoves />
     </div>
   )  
 }
