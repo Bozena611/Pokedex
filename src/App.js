@@ -3,6 +3,7 @@ import Logo from "./Logo";
 import BestPokemon from "./BestPokemon";
 import CaughtPokemon from "./CaughtPokemon";
 import PokemonMovesSelector from "./PokemonMovesSelector";
+import PokemonCity from "./PokemonCity";
 
 function App() {
   let abilities = ['Anticipation', 'Adaptability', 'Run-Away'];
@@ -17,6 +18,7 @@ function App() {
       <BestPokemon abilities={abilities}/>
       <CaughtPokemon date={date}/>
       <PokemonMovesSelector />
+      <PokemonCity />
     </div>
   )  
 }
